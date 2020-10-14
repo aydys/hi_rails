@@ -41,8 +41,7 @@ gem 'spring',        group: :development
 gem 'devise'
 
 group :test, :development do
-  gem 'rspec-rails', '~> 2.4'
+  gem 'rspec-rails'
   gem 'capybara'
+  gem 'shoulda-matchers'
 end
-
-gem 'rake', '< 11.0'
